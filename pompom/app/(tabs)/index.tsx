@@ -17,7 +17,7 @@ export default function HomeScreen () {
       <AuthProvider>
         <NavigationContainer>
           <Stack.Navigator
-            initialRouteName="Home"
+            initialRouteName="LoginIn"
             screenOptions={{ headerShown: false }}
           >
             <Stack.Screen name="LoginIn" component={LoginIn} />
